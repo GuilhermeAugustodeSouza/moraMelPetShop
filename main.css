@@ -21,6 +21,7 @@
 .paragrafo1 img{
     width:30px;
     margin-right: 2px;
+    
    
 }
 .paragrafo2{
@@ -74,7 +75,7 @@ justify-content: center;
  
 
 .secaoBanner{
-    background-image: url('img/banner-topo.jpg');
+    background-image: url('./image/banner-topo.jpg');
     background-attachment: fixed;
     padding: 120px 80px;
     background-position: center;
@@ -83,11 +84,23 @@ justify-content: center;
     box-shadow:#1f26875e;
 }
 .servicos{
-    text-align: center;
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
     color: #3c184e;
     padding: 10px 20px;
+ 
+   
 
 }
+
+.containerImagens img{
+    width:300px;
+    height:200px;
+    cursor: progress;
+}
+
 .redesSociais{
     background-color: #3c184e;
     color: white;
@@ -107,6 +120,11 @@ justify-content: center;
     box-shadow:#0000005c;
     margin:7px 7px;
     padding: 20px;
+}
+.containerMarcas div img{
+width:20vw;
+height:20vh;
+cursor: pointer;
 }
 .ondeEstamos {
     text-align:center;
@@ -135,4 +153,13 @@ justify-content: center;
     max-width: 100%;
     max-height: 100%;
     border-radius: 5px;
+}
+footer p{
+   
+    text-align: center;
+}
+footer a{
+    color: grey;
+    cursor:pointer;
+    font-size: small;
 }
