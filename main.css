@@ -147,6 +147,7 @@ cursor: pointer;
 .containerImagens{
     text-align: center;
     margin:20px 20px;
+    box-shadow:3px 2px 5px gray;
 
 }
 .containerImagens img{
