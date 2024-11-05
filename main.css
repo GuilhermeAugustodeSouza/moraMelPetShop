@@ -163,3 +163,7 @@ footer a{
     cursor:pointer;
     font-size: small;
 }
+@media(max-width:490px){
+    .containnerLink h1{
+    font-size:40px;
+}
